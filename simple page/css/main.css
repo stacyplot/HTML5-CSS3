@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #445162;
+}
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+/*Hero Section*/
+.header {
+    background: #445162;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.header__title {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 300;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header__list {
+    list-style-image: url(../img/check%20icon.png);
+    list-style-position: inside;
+}
+
+.list__item {
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header__img {
+    width: 470px;
+    height: 215px;
+    background: #fff;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*Section About*/
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about p{
+    width: 665px;
+    line-height: 24px;
+}
+
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.about__title {
+    margin-bottom: 25px;
+}
+
+.about__text1{
+    margin-bottom: 15px;
+}
+
+.about__img {
+    background: #445162;
+    width: 440px;
+    height: 240px;
+}
+
+/*Section Dignity and pluses*/
+.pluses {
+    background: #F5F5F5;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.pluses__title {
+    text-align: center;
+    font-weight: 300;
+}
+
+.pluses__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pluses__wrapper ul {
+    margin-top: 30px;
+    list-style-image: url(../img/plus%20icon.png);
+    list-style-position: outside;
+    display: inline-block;
+    width: 530px;
+}
+
+.pluses__item {
+    margin-bottom: 25px;
+}
